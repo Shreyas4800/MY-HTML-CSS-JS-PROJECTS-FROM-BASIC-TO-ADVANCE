@@ -1,0 +1,27 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#main {
+    background-color: rgb(165, 255, 225);
+    width: 20%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px 20px;
+    gap: 50px;
+    position: relative;
+}
+.image{
+    border: solid rgb(129, 0, 0) 20px;
+    border-radius: 50%;
+
+}
