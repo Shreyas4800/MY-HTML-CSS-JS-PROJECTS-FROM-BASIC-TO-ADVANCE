@@ -69,6 +69,7 @@ html,body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-weight: 500;
 
     color: #00233d;
     font-size: 20px;
@@ -114,5 +115,6 @@ button {
 button:active {
   transform: scale(1.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ 
 }
 

@@ -15,7 +15,7 @@ document.querySelector("#pannelbottom").innerHTML = bble;
 }
 makebubble();
 
-var timer = 30;
+var timer = 3;
 function runtime(){
     var timm = setInterval(function(){
         if(timer>0){
@@ -29,7 +29,7 @@ function runtime(){
             dg.innerHTML = `<h1> GAME OVER :( </h1> 
                             <h1> Your  score = ${score}</h1> 
                             `
-            dg.style.transition = "all linear 0.8s;"
+   
         }
     },1000);
 }
@@ -47,6 +47,10 @@ function inscore(){
     score += 10;
     document.querySelector("#scoo").textContent = score
 }
+
+document.querySelector('button').addEventListener("click",function(){
+    location.reload()
+})
 
 document.querySelector("#pannelbottom").addEventListener("click",function(dets){
     var clcikk  = Number(dets.target.textContent);
