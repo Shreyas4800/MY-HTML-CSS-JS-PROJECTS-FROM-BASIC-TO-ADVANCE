@@ -26,8 +26,9 @@ function runtime(){
         else{
             clearInterval(timm);
             var dg = document.querySelector("#pannelbottom");
-            dg.innerHTML = `<h1> GAME OVER :( </h1>
-                            <h2> Your  score = ${score}</h2> ` 
+            dg.innerHTML = `<h1> GAME OVER :( </h1> 
+                            <h1> Your  score = ${score}</h1> 
+                            `
             dg.style.transition = "all linear 0.8s;"
         }
     },1000);
