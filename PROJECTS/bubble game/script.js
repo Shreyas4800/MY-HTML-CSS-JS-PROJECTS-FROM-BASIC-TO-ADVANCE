@@ -15,7 +15,7 @@ document.querySelector("#pannelbottom").innerHTML = bble;
 }
 makebubble();
 
-var timer = 3;
+var timer = 30;
 function runtime(){
     var timm = setInterval(function(){
         if(timer>0){
